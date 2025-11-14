@@ -17,9 +17,6 @@ spec:
           image: your-dockerhub/product-service:latest
           ports:
             - containerPort: 8081
-          env:
-            - name: SPRING_PROFILES_ACTIVE
-              value: "k8s"
 ---
 apiVersion: v1
 kind: Service

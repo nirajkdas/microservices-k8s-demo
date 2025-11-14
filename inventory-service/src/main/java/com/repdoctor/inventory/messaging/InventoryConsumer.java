@@ -1,4 +1,3 @@
-
 package com.repdoctor.inventory.messaging;
 
 import org.springframework.kafka.annotation.KafkaListener;
@@ -9,7 +8,6 @@ public class InventoryConsumer {
 
     @KafkaListener(topics = "orders", groupId = "inventory-group")
     public void handleOrderEvent(String message) {
-        System.out.println("Inventory received: " + message);
-        // TODO: deduct stock
+        System.out.println("[inventory] received: " + message);
     }
 }

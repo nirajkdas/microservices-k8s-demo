@@ -1,0 +1,5 @@
+com/repdoctor/product/controller/HealthController.class
+com/repdoctor/product/repo/ProductRepository.class
+com/repdoctor/product/controller/ProductController.class
+com/repdoctor/product/ProductServiceApplication.class
+com/repdoctor/product/model/Product.class

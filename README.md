@@ -1,16 +1,11 @@
 
-# Microservices K8s Demo - Full Starter
+# Microservices K8s Demo - Complete Starter
 
-This repo is a starter scaffold for a microservices demo (Product, Order, Inventory) using Spring Boot, Kafka, PostgreSQL, Docker, and Kubernetes.
+This repo contains three minimal Spring Boot microservices (product, order, inventory), Dockerfiles, docker-compose (Kafka + Zookeeper + Postgres), basic Kubernetes manifests, Helm scaffolds, and a GitHub Actions CI workflow.
 
-## What's included
-- Minimal Spring Boot services (product, order, inventory)
-- Dockerfiles for each service
-- docker-compose with PostgreSQL + Kafka (bitnami images)
-- Kubernetes manifests (deployments/services)
-- Helm chart scaffolds
-- GitHub Actions CI workflow (build + push placeholder)
-- Basic docs and setup guide
+Services:
+- product-service: CRUD for products (Postgres)
+- order-service: places orders and publishes events to Kafka
+- inventory-service: consumes order events and logs (stub for stock deduction)
 
-## How to use
-Extract and inspect. Each service is a minimal Maven Spring Boot app.
+This starter is intended for learning — expand business logic as needed.
