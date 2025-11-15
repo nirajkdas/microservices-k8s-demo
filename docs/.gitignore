@@ -1,3 +1,6 @@
-./inventory-service/target/
-./order-service/target/
-./product-service/target/
+# Ignore all Maven target directories
+**/target/
+target/
+# Gradle build directory
+**/build/
+build/
