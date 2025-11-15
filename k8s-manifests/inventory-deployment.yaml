@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: inventory-service
-          image: your-dockerhub/inventory-service:latest
+          image: nirajkdas181409/inventory-service:latest
           ports:
             - containerPort: 8083
 ---

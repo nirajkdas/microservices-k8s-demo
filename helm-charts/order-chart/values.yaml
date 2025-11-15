@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: your-dockerhub/order-service
+  repository: nirajkdas181409/order-service
   tag: latest
 service:
   port: 8082

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: product-service
-          image: your-dockerhub/product-service:latest
+          image: nirajkdas181409/product-service:latest
           ports:
             - containerPort: 8081
 ---
