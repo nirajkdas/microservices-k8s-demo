@@ -1,0 +1,6 @@
+replicaCount: 1
+image:
+  repository: nirajkdas181409/order-service
+  tag: latest
+service:
+  port: 8082
